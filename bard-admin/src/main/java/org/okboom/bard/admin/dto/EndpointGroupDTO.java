@@ -1,20 +1,23 @@
-package org.okboom.bard.admin.vo;
+package org.okboom.bard.admin.dto;
 
 import lombok.Data;
 import lombok.ToString;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
 
 /**
- * endpoint group vo
+ * api分组传输类
  * @author tookbra
  */
 @Data
 @ToString
-public class EndpointGroupVO implements Serializable {
-    private static final long serialVersionUID = 1609795602868494033L;
+public class EndpointGroupDTO implements Serializable {
+    private static final long serialVersionUID = 3139775791788622322L;
 
+    /**
+     * id
+     */
+    private Long id;
     /**
      * api分组名称
      */
@@ -31,12 +34,4 @@ public class EndpointGroupVO implements Serializable {
      * 描述
      */
     private String description;
-    /**
-     * 创建时间
-     */
-    private LocalDateTime createdTime;
-    /**
-     * 修改时间
-     */
-    private LocalDateTime modifyTime;
 }
