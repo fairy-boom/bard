@@ -31,7 +31,7 @@ public class PluginServiceImpl extends BaseServiceImpl<PluginMapper, Plugin> imp
 
     @Override
     public Plugin findById(Long id) {
-        return findById(id);
+        return getById(id);
     }
 
     @Override

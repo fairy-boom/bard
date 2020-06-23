@@ -41,7 +41,7 @@ public class DictionaryServiceImpl extends BaseServiceImpl<DictMapper, Dictionar
 
     @Override
     public Dictionary findById(Long id) {
-        return this.baseMapper.selectById(id);
+        return getById(id);
     }
 
     @Override
