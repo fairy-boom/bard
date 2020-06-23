@@ -14,4 +14,5 @@ import org.okboom.yuumi.mybatis.base.BaseWrapper;
 public interface EndpointWrapper extends BaseWrapper<Endpoint, EndpointVO> {
 
     EndpointWrapper INSTANCE = Mappers.getMapper(EndpointWrapper.class);
+
 }

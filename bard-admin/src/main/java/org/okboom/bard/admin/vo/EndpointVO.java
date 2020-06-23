@@ -11,5 +11,27 @@ import java.io.Serializable;
 @Data
 @ToString
 public class EndpointVO implements Serializable {
-    private static final long serialVersionUID = -3759625520207755429L;
+
+    private static final long serialVersionUID = -1620505569184470795L;
+    /**
+     * api名称
+     */
+    private String name;
+    /**
+     * 分组id
+     */
+    private Long groupId;
+    /**
+     * 路径
+     */
+    private String url;
+    /**
+     * http请求方法
+     */
+    private String method;
+    /**
+     * 版本
+     */
+    private String version;
+
 }
