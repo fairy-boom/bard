@@ -4,14 +4,10 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import lombok.AllArgsConstructor;
 import org.okboom.bard.admin.domain.EndpointGroup;
 import org.okboom.bard.admin.dto.EndpointGroupDTO;
-import org.okboom.bard.admin.dto.PluginDTO;
 import org.okboom.bard.admin.query.EndpointGroupQuery;
-import org.okboom.bard.admin.query.PluginQuery;
 import org.okboom.bard.admin.service.EndpointGroupService;
 import org.okboom.bard.admin.vo.EndpointGroupVO;
-import org.okboom.bard.admin.vo.PluginVO;
 import org.okboom.bard.admin.wrapper.EndpointGroupWrapper;
-import org.okboom.bard.admin.wrapper.PluginWrapper;
 import org.okboom.yuumi.tool.data.ServiceResult;
 import org.springframework.web.bind.annotation.*;
 
