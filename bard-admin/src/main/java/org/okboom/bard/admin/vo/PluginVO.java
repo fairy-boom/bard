@@ -2,6 +2,7 @@ package org.okboom.bard.admin.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.io.Serializable;
@@ -11,6 +12,7 @@ import java.io.Serializable;
  * @author tookbra
  */
 @Data
+@NoArgsConstructor
 @AllArgsConstructor
 @ToString
 public class PluginVO implements Serializable {
